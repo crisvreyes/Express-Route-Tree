@@ -1,0 +1,8 @@
+
+<div class = 'box'> <h1>Route Tree</h1>
+<!-- notice the lack of a slash in front of 'details' -->
+<!-- without the slash, details/5 will be appended to our existing route, which is /products -->
+<a [routerLink] = "['/products' ]"> Products </a> 
+<a [routerLink] = "['/reviews']"> Reviews </a>  
+<router-outlet></router-outlet>
+</div>
